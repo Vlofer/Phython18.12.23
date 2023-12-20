@@ -5,7 +5,7 @@ if __name__ == '__main__':
     t0 = time.time()
     # int - integer
     # целое число
-    x1 = 14
+    x1 = 15
     x2 = 7
     print(x1)
     print(type(x1))
@@ -14,9 +14,9 @@ if __name__ == '__main__':
     print(x1 + x2)
     print(x1 * x2)
     print(x1 - x2)
-    print(x1 / x2)
+    print(f'Dilenie:', x1 / x2)
     print(type(x1 / x2))
-    print(x1 // x2)
+    print(f'two palocka', x1 // x2)
     print(f'{x1} % {x2} =', x1 % x2)
     print(type(x1 // x2))
     print(f'{x1} * {x2} =', x1 ** 2)
