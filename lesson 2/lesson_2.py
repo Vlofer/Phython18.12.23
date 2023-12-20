@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # float - плавающее число
     # floating point
     print("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFLOOOOOOOOOOOOOOOOOOOOAAAAAAAAAAAAAAATTTTTTTTTTT")
-    y1 = 2.54231321
+    y1 = 2.54931321
     y2 = 6.13
     print(y1)
     print(int(y1))
