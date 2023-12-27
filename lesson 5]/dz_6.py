@@ -12,6 +12,7 @@ def get_numbers():
         numbers.append(number)
     return numbers
 
+
 def sum_numbers():
     numbers = get_numbers()
     num = round(sum(numbers), 2)
