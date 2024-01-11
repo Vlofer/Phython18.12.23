@@ -1,3 +1,6 @@
+import os
+
+
 # function for notes
 def add(notes_list):
     """
@@ -53,9 +56,32 @@ def shortest(notes_shortest, num_notes):
         print(element)
 
 
+# Function for Save files
+def save_notes(num_notes):
+    """
+    Сохраняє нотатки в файл
+    :return:
+    """
+    with open('notes.txt', mode='a') as fp:
+        for item in num_notes:
+            fp.writelines(item + '\n')
+
+
+# Function load
+def load_notes(num_notes):
+    """
+     Загружає сохраньонні нотатки в файлі, в змінну notes
+    :return:Нічого
+    """
+    with open('notes.txt', mode='r') as fp:
+        file_notes = fp.readlines()
+        for line in file_notes:
+            line.split('\n')
+            num_notes.append(line)
+
+
 # array with notes
 notes = list()
-
 
 # instruction
 print('''
@@ -65,7 +91,10 @@ print('''
     3. latest -  Вивести нотатки Старі - Нові
     4. longest - Вивести нотатки по довжині Довгі - Короткі
     5. shortest - Вивести нотатки по довжині Короткі - Довгі
-    6. Exit
+    6. save - сохранити нотатки в файл
+    7. load - вигрузить з файла
+    8. Exit
+    
 ''')
 
 # while for comunication with user
@@ -82,12 +111,12 @@ while True:
         |Введіть ціле число|''')
         continue
 
-    if 0 < user_input < 7:
+    if 0 < user_input < 10:
         # func add
         if user_input == 1:
             add(notes)
         # NUM NOTES
-        elif user_input in [2, 3, 4, 5, ]:
+        elif user_input in [2, 3, 4, 5]:
             try:
                 num_notes = int(input("Скільки потрібно показати нотатків: "))
                 if num_notes < 0:
@@ -106,8 +135,18 @@ while True:
             elif user_input == 5:
                 shortest(notes, num_notes)
         elif user_input == 6:
+            save_notes(notes)
+            print('Нотатки збереженні в файл')
+        elif user_input == 7:
+            load_notes(notes)
+            print('Віруси скачались гии')
+        elif user_input == 8:
+            os.remove('notes.txt')
+            print("всьо пізда")
+        elif user_input == 9:
             exit()
     else:
         print('''
-        |ЧИСЛО ОТ 1 ДО 6!!|
+        |ЧИСЛО ОТ 1 ДО 9!!|
         ''')
+
