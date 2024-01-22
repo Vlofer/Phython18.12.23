@@ -9,7 +9,10 @@ def add(notes_list):
     :return: оновленний список з нотатками
     """
     new_note_input = input("Enter a note: ")
-    notes_list.append(new_note_input)
+    if new_note_input == '':
+        print('пустота не рахується')
+    else:
+        notes_list.append(new_note_input)
 
 
 # Function earliest
@@ -93,7 +96,8 @@ print('''
     5. shortest - Вивести нотатки по довжині Короткі - Довгі
     6. save - сохранити нотатки в файл
     7. load - вигрузить з файла
-    8. Exit
+    8. clear - удалить
+    9. Exit
     
 ''')
 

@@ -1,0 +1,92 @@
+{
+    "players": [
+        {
+            "name": "Magick",
+            "surname": "Fox",
+            "category": "Unranked",
+            "rating": "50",
+            "uid": "0bcbb810-7e7e-4470-8590-03cbd475f74d",
+            "full_name": "Magick Fox"
+        },
+        {
+            "name": "Voice",
+            "surname": "Surzhik",
+            "category": "Ranked",
+            "rating": "60",
+            "uid": "6d812046-0661-4160-801d-251459e3876f",
+            "full_name": "Voice Surzhik"
+        },
+        {
+            "name": "Denis",
+            "surname": "Fiancheto",
+            "category": "Unplayable",
+            "rating": "85",
+            "uid": "5e733513-425a-4285-adbe-e028eaf14ba9",
+            "full_name": "Denis Fiancheto"
+        },
+        {
+            "name": "Sanya",
+            "surname": "Velwas",
+            "category": "Ranked",
+            "rating": "80",
+            "uid": "90b1422c-ec5d-4fc8-a21f-d8e448515108",
+            "full_name": "Sanya Velwas"
+        },
+        {
+            "name": "El",
+            "surname": "Racista",
+            "category": "Unranked",
+            "rating": "80",
+            "uid": "9a9a4d36-6421-41a2-b629-6ca490b59bdb",
+            "full_name": "El Racista"
+        },
+        {
+            "name": "Ancient",
+            "surname": "Veprik",
+            "category": "Ranked",
+            "rating": "90",
+            "uid": "8d69ca1f-ef67-4cba-8ff6-ed40af4c464b",
+            "full_name": "Ancient Veprik"
+        },
+        {
+            "name": "Danon",
+            "surname": "Fox",
+            "category": "Ranked",
+            "rating": "80",
+            "uid": "b7c060aa-fbf4-480e-823a-f9b8aa314ce5",
+            "full_name": "Danon Fox"
+        },
+        {
+            "name": "System",
+            "surname": "Tempest",
+            "category": "Unplayable",
+            "rating": "50",
+            "uid": "e2f5fbb5-5978-4d09-a8db-4b5ce19179e5",
+            "full_name": "System Tempest"
+        },
+        {
+            "name": "Andruha",
+            "surname": "Smerch",
+            "category": "Unplayable",
+            "rating": "50",
+            "uid": "88e50ba3-e2c6-4fa5-ab16-5afe48068ac0",
+            "full_name": "Andruha Smerch"
+        },
+        {
+            "name": "Anton",
+            "surname": "Gddgddmen",
+            "category": "Unranked",
+            "rating": "60",
+            "uid": "aa568cec-ce1c-4631-9011-35e1a6db60dc",
+            "full_name": "Anton Gddgddmen"
+        },
+        {
+            "name": "Bloody",
+            "surname": "Karma",
+            "category": "Unranked",
+            "rating": "80",
+            "uid": "c2a305cd-8f13-40f5-bf69-53a1de65fccd",
+            "full_name": "Bloody Karma"
+        }
+    ]
+}

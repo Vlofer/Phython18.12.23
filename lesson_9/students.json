@@ -1,0 +1,76 @@
+{
+    "students": [
+        {
+            "first name": "Aamir",
+            "last name": "Khan",
+            "faculty": "Applied Mathematics",
+            "group": "900",
+            "uid": "35e6a02b-6bd3-4342-9506-938744714853",
+            "full name": "Aamir Khan"
+        },
+        {
+            "first name": "Akshay",
+            "last name": "Kumar",
+            "faculty": "Applied Mathematics",
+            "group": "900",
+            "uid": "a6a9c6d9-cbd8-4593-92ed-7f9d1d27fe6b",
+            "full name": "Akshay Kumar"
+        },
+        {
+            "first name": "Ajay",
+            "last name": "Devgn",
+            "faculty": "Applied Mathematics",
+            "group": "950",
+            "uid": "47c0e805-0dcb-4c68-b97e-32239044daf6",
+            "full name": "Ajay Devgn"
+        },
+        {
+            "first name": "Amjad",
+            "last name": "Khan",
+            "faculty": "Applied Mathematics",
+            "group": "950",
+            "uid": "086dfd96-59a3-4046-aec8-85fd1de32266",
+            "full name": "Amjad Khan"
+        },
+        {
+            "first name": "Amitabh",
+            "last name": "Bachchan",
+            "faculty": "Economics",
+            "group": "800",
+            "uid": "15ec0590-063d-45fb-98d2-311b368b3f35",
+            "full name": "Amitabh Bachchan"
+        },
+        {
+            "first name": "Amol",
+            "last name": "Palekar",
+            "faculty": "Economics",
+            "group": "800",
+            "uid": "8b2d08c2-00ab-4c99-a809-ba130c94b30c",
+            "full name": "Amol Palekar"
+        },
+        {
+            "first name": "Abhay",
+            "last name": "Deol",
+            "faculty": "Economics",
+            "group": "800",
+            "uid": "ee20b9b3-6af3-432b-a322-cddd30719fcd",
+            "full name": "Abhay Deol"
+        },
+        {
+            "first name": "Akshaye",
+            "last name": "Khanna",
+            "faculty": "Economics",
+            "group": "860",
+            "uid": "4fc868b9-4578-419c-a4c0-1db30c3eac84",
+            "full name": "Akshaye Khanna"
+        },
+        {
+            "first name": "Arshad",
+            "last name": "Warsi",
+            "faculty": "Economics",
+            "group": "860",
+            "uid": "f3eb7609-0566-40e7-b38d-70fc595a4beb",
+            "full name": "Arshad Warsi"
+        }
+    ]
+}
